@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: #121214;
+}
+
+.destaque {
+  color: #EB5757;
+}
+
+.transition {
+  transition: .4s;
+}
+
+.brilho-img {
+  filter: brightness(50%);
+}
+
+#minecraft {
+  filter: brightness(30%);
+}
+
+header {
+  position: relative;
+  top: 0;
+  height: auto;
+  width: 100%;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  height: 30px;
+  width: 100%;
+  z-index: 1;
+  padding: 20px 0 20px 0;
+  background-color: transparent;
+  font-weight: bolder;
+  transition: .6s;
+}
+
+nav.ativo{
+  background-color: #EB5757;
+  transition: .6s;
+}
+
+
+.nav-select {
+  text-decoration: 3px underline;
+}
+
+.nav-container {
+  position: relative;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+svg {
+  width: 50px;
+  height: 50px;
+  fill: white;
+}
+
+nav.ativo svg{
+  fill: black;
+}
+
+.nav-container ul {
+  float: right;
+  line-height: 30px;
+  /*Centralizar o texto*/
+}
+
+.nav-container ul li {
+  list-style: none;
+  float: left;
+  margin: 0 20px 0 20px;
+  padding: 4px 10px 4px 10px;
+}
+
+.nav-container ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav.ativo .nav-container ul li a {
+  color: #121214;
+}
+
+.nav-container ul li a:hover {
+  text-decoration: 3px underline;
+}

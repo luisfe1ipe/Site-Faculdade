@@ -1,0 +1,121 @@
+
+/* ================ PAINEL ================ */
+.container-painel{
+    width: 100%;
+    position: relative;
+}
+
+.container-painel img{
+    height: 650px;
+    width: 100%;
+    z-index: 1;
+}
+
+.conteudo-painel{
+    position: absolute;
+    text-align: left;
+    top: 250px;
+    left: 100px;
+    color: #fff;
+}
+
+.conteudo-painel form button{
+    background-color: #ffffff00;
+    border: 2px solid #fff;
+    color: #fff;
+    height: 36px;
+    width: 140px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.conteudo-painel form button:hover{
+    background-color: #fff;
+    color: #333333;
+}
+
+.conteudo-painel h1{
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 74px;
+    padding-bottom: 10px;
+}
+
+.conteudo-painel p{
+    font-size: 18px;
+    line-height: 27px
+}
+
+
+/* ================ CONTEUDO ================ */
+
+.container-pq{
+    height: 210px;
+    width: 100%;
+    padding: 65px 0 0 0;
+}
+
+.container-pq .texto{
+    height: 299px;
+    width: 550px;
+    margin: 0 149px 0 149px;
+    display: block;
+}
+
+
+.texto .titulo{
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.texto h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.texto p{
+    font: 16px;
+    line-height: 24px;
+    color: #C4C4CC;
+    display: inline;
+}
+
+
+.container-img{
+    height: 320px;
+    width: 100%;
+    padding: 65px 0 65px 0;
+}
+
+.list{
+    height: 190px;
+    width: 1170px;
+    display: flex;
+}
+
+.list .conteudo{
+ 
+    width: 1170px;
+}
+
+.conteudo h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.conteudo p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #C4C4CC;
+    margin: 10px;
+}
+

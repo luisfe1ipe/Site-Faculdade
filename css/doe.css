@@ -1,0 +1,88 @@
+a{
+    text-decoration: none;
+}
+.container-painel{
+    width: 100%;
+    position: relative;
+    
+}
+
+.container-painel img{
+    width: 100%;
+    z-index: 1;
+}
+
+.conteudo-painel{
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    left: 100px;
+    right: 100px;
+    color: #fff;
+}
+
+.conteudo-painel h1{
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 54px;
+    margin-bottom: -10px;
+}
+
+.conteudo-painel span{
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.conteudo-painel p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+
+.container-section{
+    width: 1200px;
+}
+
+
+
+.button{
+    background-color: #EB5757;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: 800;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 60%;
+}
+
+.button:hover{
+    background-color: #833232;
+    color: #ffff;
+}
+
+
+
+
+.table table{
+    margin: 100px;
+    width: 700px;
+    height: 500px;
+    color: #fff;
+}
+
+.table table #titulo{
+    font-size: 50px;
+    background-color: #EB5757;
+    color: #fff;
+    font-weight: 800;
+}
+
+.table table .valor{
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}

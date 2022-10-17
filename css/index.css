@@ -1,0 +1,143 @@
+
+/* ================ PAINEL ================ */
+.container-painel {
+  width: 100%;
+}
+
+.imagem{
+  width: 100%;
+}
+
+.conteudo-painel {
+  position: absolute;
+  text-align: left;
+  top: 250px;
+  left: 100px;
+  color: #fff;
+}
+
+.conteudo-painel h1 {
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 74px;
+  padding-bottom: 10px;
+}
+
+.conteudo-painel p {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+
+
+/* ================ PRODUTOS ================ */
+.container-produtos {
+  height: 951px;
+  width: 100%;
+}
+
+
+.container-produto-2 {
+  height: 821px;
+}
+
+.list-produtos {
+  height: 673px;
+  width: 1170px;
+  display: flex;
+}
+
+.produto {
+  height: 673px;
+  width: 1170px;
+}
+
+#compre-produto-titulo {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #fff;
+  margin-bottom: 30px;
+  margin-top: 80px;
+  margin-left: 80px;
+  text-align: left;
+}
+
+
+.produto img {
+  height: 500px;
+  width: 380px;
+  border-radius: 10px;
+}
+.produto img:hover{
+  filter: brightness(60%);
+}
+
+.nome-produto {
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.preco-produto {
+  font-size: 14px;
+  font-weight: 700;
+  color: #C4C4CC;
+}
+
+.form-button button {
+  background: #EB5757;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  height: 36px;
+  width: 106px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.form-button button:hover {
+  background-color: #833232;
+  color: #fff;
+
+}
+
+.view-all-button button {
+  background-color: #fff;
+  color: #121214;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  height: 45px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.view-all-button button:hover {
+  background-color: #EB5757;
+  color: #fff;
+}
+
+.conteudo-painel form button {
+  background-color: #ffffff00;
+  border: 2px solid #fff;
+  color: #fff;
+  height: 36px;
+  width: 140px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.conteudo-painel form button:hover {
+  background-color: #fff;
+  color: #333333;
+}

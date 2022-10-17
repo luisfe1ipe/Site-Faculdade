@@ -1,0 +1,26 @@
+footer {
+  height: 188px;
+  width: 100%;
+  background-color: #000000;
+}
+
+.container-footer {
+  height: 103px;
+  width: 100%;
+}
+
+.social-midia {
+  display: inline;
+}
+
+
+.social-midia a img {
+  margin-top: 50px;
+  padding: 20px 40px 20px 40px;
+  cursor: pointer;
+}
+
+.social-midia a img:hover {
+  background-color: #EB5757;
+  border-radius: 10px;
+}

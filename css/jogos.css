@@ -1,0 +1,111 @@
+.container-categoria {
+  height: 532px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.sub-container-categoria {
+  height: 402px;
+  width: auto;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 150px;
+  padding-left: 5%;
+}
+
+.categoria {
+  width: 300px;
+}
+
+.categoria button{
+  height: 36px; 
+  width: 209px;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 5px;
+  padding-right: 70px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #202024;
+  border: 2px solid #EB5757;
+  color: #C4C4CC;
+}
+
+.categoria button:hover{
+  background-color: #EB5757;
+  transition: .6s;
+  color: #C4C4CC;
+}
+
+.group-jogo{
+  display: inline;
+  display: flex;
+}
+
+.container-jogo {
+  height: 400px;
+  width: 900px;
+}
+
+.jogo{
+  width: 300px;
+}
+
+.jogo img{
+  height: 200px;
+  width: 175px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.jogo img:hover{
+  filter: brightness(60%);
+}
+
+.jogo .nome-jogo{
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.jogo .preco-jogo{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #C4C4CC;
+}
+
+.group-jogo button{
+  background-color: #EB5757;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 105px;
+  height: 35px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.group-jogo button:hover {
+  background-color: #833232;
+  transition: .6s;
+}
+
+
+.h2 {
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.p {
+  font-size: 16px;
+}
+
+.p-margin {
+  margin-top: 30px;
+}
+
