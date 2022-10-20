@@ -63,6 +63,7 @@
   height: 673px;
   width: 1170px;
   display: flex;
+  justify-content: space-between;
 }
 
 .produto {

@@ -8,6 +8,19 @@ body{
   background-color: #121214;
 }
 
+body::-webkit-scrollbar {
+  width: 12px; /* tamanho do scroll */
+}
+
+body::-webkit-scrollbar-track {
+  background: #202024; /* cor do fundo */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #EB5757; /* cor do scroll */
+  border: none;
+}
+
 .destaque {
   color: #EB5757;
 }
