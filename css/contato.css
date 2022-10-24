@@ -4,7 +4,6 @@ html{
 .container-painel{
     width: 100%;
     position: relative;
-    
 }
 
 .container-painel img{
@@ -72,13 +71,11 @@ html{
 .container-form{
     height: 532px;
     width: auto;
-    margin: 0 auto;
 }
 
 .sub-container-form{
     height: 402px;
     width: auto;
-    margin: 0 auto;
     display: flex;
     padding-top: 60px;
     padding-left: 10%;
